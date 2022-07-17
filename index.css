@@ -578,7 +578,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 1099px) and (min-height: 457px) and (max-height: 1099px) {
+@media only screen and (max-width: 1099px) and (orientation: landscape) {
   body {
     padding: 0 24px 0px 24px;
   }
