@@ -553,7 +553,7 @@ footer {
 }
 /* end */
 
-@media screen and (max-width: 456px) {
+@media screen and (max-width: 1099px) {
   .welcome,
   .about,
   .branding-1,
@@ -579,7 +579,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 1099px) and (orientation: landscape) {
+@media screen and (min-width: 347px) (max-width: 1099px) and (orientation: landscape) {
   body {
     padding: 0 24px 0px 24px;
   }
