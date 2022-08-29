@@ -40,6 +40,33 @@ a {
   font-weight: regular;
   color: #f5f5ff;
 }
+
+nav {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.nav-link {
+  color: #627cdb;
+  margin-left: 40px;
+  padding: 13px 30px;
+  border-radius: 152px;
+}
+
+.nav-link:hover {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #627cdb;
+  border-radius: 152px;
+  color: #f5f5ff;
+  transition: 250ms linear;
+}
+
 /* custon-headers */
 .header-1-wrapper {
   grid-column-start: 1;
@@ -560,6 +587,7 @@ footer {
   .branding-2,
   .branding-3,
   .interface-1,
+  nav,
   footer {
     display: none;
   }
@@ -583,6 +611,13 @@ footer {
   body {
     padding: 0 24px 0px 24px;
   }
+  nav {
+    margin-top: 25px;
+  }
+  .nav-link {
+    padding: 10px 20px;
+  }
+
   h1 {
     font-size: 32px;
     line-height: 55px;
@@ -788,6 +823,10 @@ footer {
     padding: 0 500px 0px 500px;
     overflow-x: hidden;
     grid-template-columns: repeat(10, 1fr);
+  }
+
+  .nav-link {
+    padding: 20px 40px;
   }
 
   .header-1-wrapper {
