@@ -33,6 +33,48 @@ body {
 .button:hover {
   opacity: 100%;
 }
+
+.project-info {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.project-info2 {
+  margin-top: 10px;
+}
+
+.small-link {
+  font-size: 16px;
+  font-family: Roboto;
+  color: #627cdb;
+  margin: 0;
+  text-decoration: underline;
+}
+
+.label {
+  margin: 0;
+  display: flex;
+  color: #f5f5ff;
+  padding: 8px 10px;
+  background: #627cdb;
+}
+
+h5 {
+  font-size: 16px;
+  font-family: Roboto;
+  color: #7e7e7e;
+  margin: 0;
+}
+h6 {
+  font-size: 16px;
+  font-family: Roboto;
+  color: #f5f5ff;
+  margin: 0;
+}
+
 a {
   text-decoration: none;
   font-family: Roboto;
@@ -666,6 +708,47 @@ footer {
     line-height: 16px;
     margin-bottom: 5px;
   }
+
+  .project-info {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .project-info2 {
+    margin-top: 5px;
+  }
+
+  .small-link {
+    font-size: 9px;
+    font-family: Roboto;
+    color: #627cdb;
+    margin: 0;
+    text-decoration: underline;
+  }
+
+  .label {
+    margin: 0;
+    display: flex;
+    color: #f5f5ff;
+    padding: 5px 8px;
+    background: #627cdb;
+  }
+
+  h5 {
+    font-size: 9px;
+    font-family: Roboto;
+    color: #7e7e7e;
+    margin: 0;
+  }
+  h6 {
+    font-size: 9px;
+    font-family: Roboto;
+    color: #f5f5ff;
+    margin: 0;
+  }
   #ext-link {
     line-height: 16px;
     margin-bottom: 5px;
@@ -831,6 +914,48 @@ footer {
     line-height: 20px;
     margin-bottom: 5px;
   }
+
+  .project-info {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .project-info2 {
+    margin-top: 5px;
+  }
+
+  .small-link {
+    font-size: 12px;
+    font-family: Roboto;
+    color: #627cdb;
+    margin: 0;
+    text-decoration: underline;
+  }
+
+  .label {
+    margin: 0;
+    display: flex;
+    color: #f5f5ff;
+    padding: 8px 10px;
+    background: #627cdb;
+  }
+
+  h5 {
+    font-size: 12px;
+    font-family: Roboto;
+    color: #7e7e7e;
+    margin: 0;
+  }
+  h6 {
+    font-size: 12px;
+    font-family: Roboto;
+    color: #f5f5ff;
+    margin: 0;
+  }
+
   #ext-link {
     font-size: 16px;
     line-height: 20px;
@@ -912,6 +1037,47 @@ footer {
     margin-bottom: 20px;
     line-height: 48px;
     margin-top: 10px;
+  }
+
+  .project-info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .project-info2 {
+    margin-top: 10px;
+  }
+
+  .small-link {
+    font-size: 30px;
+    font-family: Roboto;
+    color: #627cdb;
+    margin: 0;
+    text-decoration: underline;
+  }
+
+  .label {
+    margin: 0;
+    display: flex;
+    color: #f5f5ff;
+    padding: 10px 16px;
+    background: #627cdb;
+  }
+
+  h5 {
+    font-size: 30px;
+    font-family: Roboto;
+    color: #7e7e7e;
+    margin: 0;
+  }
+  h6 {
+    font-size: 30px;
+    font-family: Roboto;
+    color: #f5f5ff;
+    margin: 0;
   }
 
   #ext-link {
